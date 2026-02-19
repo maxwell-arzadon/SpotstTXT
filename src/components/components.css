@@ -1,0 +1,101 @@
+.cta-section {
+  padding: 60px 0;
+  background-color: var(--color-gray3);
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+}
+
+.cta-btn {
+  background-color: var(--color-secondary) !important;
+  border: none !important;
+  color: var(--color-white) !important;
+  font-weight: 600 !important;
+  padding: 12px 28px !important;
+  border-radius: 8px !important;
+  margin-top: 16px;
+}
+
+.cta-graphic {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.blue-text {
+    color: var(--color-secondary);
+}
+
+.red-text {
+    color: var(--color-main);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.app-navbar {
+  background-color: var(--color-white) !important;
+  border-bottom: 1px solid var(--color-gray3);
+  padding: 16px 0;
+}
+
+.app-navbar .nav-link {
+  color: var(--color-black) !important;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.app-navbar .nav-link:hover {
+  color: var(--color-main) !important;
+}
+
+.navbar-btn {
+  background-color: var(--color-secondary) !important;
+  border: none !important;
+  color: var(--color-white) !important;
+  font-weight: 600 !important;
+  padding: 10px 24px !important;
+  border-radius: 8px !important;
+}
+
+.footer {
+  background-color: var(--color-white);
+  padding: 24px 0;
+}
+
+.footer-link {
+  color: var(--color-black) !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  color: var(--color-accent) !important;
+}
+
+.app-navbar .container-fluid {
+  padding-left: 144px !important;
+  padding-right: 144px !important;
+}
+
+.footer .container-fluid {
+  padding-left: 144px !important;
+  padding-right: 144px !important;
+}
+
+@media (max-width: 991px) {
+  .app-navbar .container-fluid,
+  .footer .container-fluid {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+}
+
+@media (max-width: 436px) {
+  .app-navbar .container-fluid,
+  .footer .container-fluid {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
