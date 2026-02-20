@@ -1,18 +1,18 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
-import './Home.css'
+import './pages.css'
 import CTA from '../components/cta'
 
-import phoneMockup from '../assets/hero/Hero-sportstxt.png'
-import about from '../assets/hero/Hero-mission.png'
-import athletes from '../assets/hero/Hero-athletes.png'
+import phoneMockup from '../assets/hero/home-sportstxt.png'
+import about from '../assets/hero/home-mission.png'
+import athletes from '../assets/hero/home-athletes.png'
 
 
 function Home() {
   return (
     <>
     {/* Hero Section */}
-      <section className="hero">
+      <section className="hero-home" data-aos="fade-down">
         <Container className="content-container">
           <Row className="justify-content-center">
             <Col>
@@ -26,14 +26,14 @@ function Home() {
                 Find fellow fans of your favorite teams! Create an account now 
                 and join the millions of sports enthusiasts around the world!
               </p>
-              <Button className="hero-btn">Become a Member</Button>
+              <Button className="btn-accent">Become a Member</Button>
             </Col>
           </Row>
         </Container>
       </section>
 
       {/* What is SportsTXT? */}
-      <section className='home-section'>
+      <section className='page-section' data-aos="fade-down">
         <Container className="content-container">
           <h1>
             <span className="blue-text">What Is</span>{' '}
@@ -51,10 +51,10 @@ function Home() {
       </section>
 
       {/* Our Mission */}
-      <section className='home-section'>
+      <section className='page-section' data-aos="fade-right">
         <Container className="content-container">
           <Row className="align-items-center g-5">
-            <Col md={6} className="text-start">
+            <Col md={6} className="text-center text-md-start">
               <h1>
                 <span className="blue-text">Our</span>{' '}
                 <span className="red-text">Mission</span>
@@ -75,17 +75,17 @@ function Home() {
       </section>
 
       {/* How It Works */}
-      <section className='home-section'>
+      <section className='page-section' data-aos="fade-left">
         <Container className="content-container">
           <Row className="align-items-center g-5">
-            <Col md={6}>
+            <Col md={6} className="order-2 order-md-1">
               <img 
                 src={athletes} 
                 alt="Athletes hugging each other" 
                 className="img-fluid rounded-4" 
               />     
             </Col>  
-            <Col md={6} className="text-end">
+            <Col md={6} className="text-center text-md-start order-1 order-md-2">
               <h1>
                 <span className="blue-text">How it</span>{' '}
                 <span className="red-text">Works</span>
@@ -103,7 +103,7 @@ function Home() {
 
       {/* The Platform of Firsts */}
       <div className="firsts-wrapper">
-        <section className="home-section">
+        <section className="page-section" data-aos="fade-up">
           <Container className="content-container">
             <h1 className="mb-5">
               <span className="blue-text">The Platform of</span>{' '}
@@ -111,7 +111,7 @@ function Home() {
             </h1>
             <Row className="g-4">
               <Col md={6}>
-                <div className="platform-card text-center shadow-sm">
+                <div className="platform-card text-center shadow-sm" data-aos="fade-up">
                   <h2>
                     <span className="red-text">Members</span>{' '}
                     <span className="blue-text">First</span>
@@ -123,7 +123,7 @@ function Home() {
                 </div>
               </Col>  
               <Col md={6}>
-                <div className="platform-card text-center shadow-sm">
+                <div className="platform-card text-center shadow-sm" data-aos="fade-up">
                   <h2>
                     <span className="red-text">Safety</span>{' '}
                     <span className="blue-text">First</span>
@@ -135,7 +135,7 @@ function Home() {
                 </div>
               </Col>
               <Col md={6}>
-                <div className="platform-card text-center shadow-sm">
+                <div className="platform-card text-center shadow-sm" data-aos="fade-up">
                   <h2>
                     <span className="red-text">Data</span>{' '}
                     <span className="blue-text">First</span>
@@ -147,7 +147,7 @@ function Home() {
                   </div>
               </Col>
               <Col md={6}>
-                <div className="platform-card text-center shadow-sm">
+                <div className="platform-card text-center shadow-sm" data-aos="fade-up">
                   <h2>
                     <span className="red-text">Value</span>{' '}
                     <span className="blue-text">First</span>
@@ -162,7 +162,7 @@ function Home() {
           </Container>
         </section>
       </div>
-      <section className="home-section"> 
+      <section className="page-section"> 
         <Container className="content-container">
           <CTA />
         </Container>

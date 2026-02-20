@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo-with-text.png'
 import './components.css'
 
 function AppNavbar() {
@@ -16,7 +16,7 @@ function AppNavbar() {
         <Nav.Link as={Link} to="/">Home</Nav.Link>
         <Nav.Link as={Link} to="/features">Features</Nav.Link>
         <Nav.Link as={Link} to="/about">About Us</Nav.Link>
-        <Button as={Link} to="/contact" className="navbar-btn">
+        <Button as={Link} to="/contact" className="btn-primary">
           Contact Us
         </Button>
       </Nav>

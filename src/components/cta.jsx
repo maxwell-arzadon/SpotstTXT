@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import ctaGraphic from '../assets/cta-graphic.png'
 import './components.css'
 
@@ -12,7 +13,9 @@ function CTA() {
                 <span className="red-text">Touch!</span>
             </h1>
             <p className="subtitle">Build A Unified Community with SportsTXT</p>
-            <Button className="cta-btn">Contact Our Team</Button>
+            <Button as={Link} to="/contact" className="btn-primary">
+              Contact Our Team
+            </Button>          
           </Col>
           <Col md={4} className="text-end">
             <img src={ctaGraphic} alt="" className="img-fluid cta-graphic"/>

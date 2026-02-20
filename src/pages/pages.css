@@ -1,7 +1,14 @@
-.hero {
-    width: 100vw;
+
+.page-section {
+    padding-top: 117px;
+    padding-bottom: 117px;
+}
+
+/*HOME PAGE*/
+.hero-home {
+    min-height: calc(100vh - 72px);
     margin-left: calc(-50vw + 50%);
-    background-image: url('../assets/hero/hero-bg.jpg');
+    background-image: url('../assets/hero/hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,21 +62,6 @@
     background-color: var(--color-accent-darker) !important;
 }
 
-.home-section {
-    padding-top: 117px;
-    padding-bottom: 117px;
-}
-
-.blue-text {
-    color: var(--color-secondary);
-}
-
-.red-text {
-    color: var(--color-main);
-    font-style: italic;
-    text-decoration: underline;
-}
-
 .platform-section {
   padding: 80px 0;
 }
@@ -99,4 +91,68 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+}
+
+/*FEATURES PAGE*/
+.feature-card {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  padding: 36px;
+  height: 100%;
+}
+
+.feature-icon {
+  font-size: 32px !important;
+  color: var(--color-main) !important;
+}
+
+/*ABOUT PAGE*/
+.gray-wrapper {
+  background-color: var(--color-gray3);
+}
+
+.people-card {
+  background-color: var(--color-white);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.people-card-info {
+  padding: 16px 24px;
+}
+
+.people-card img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/*CONTACT PAGE*/
+.nms-logo {
+  height: 50px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.contact-detail-icon {
+  font-size: 18px !important;
+  color: var(--color-main) !important;
+  margin-top: 4px;
+}
+
+.contact-map iframe {
+  border-radius: 8px;
+}
+
+.contact-form-wrapper {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  padding-right: 28px;
+  padding-left: 28px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }

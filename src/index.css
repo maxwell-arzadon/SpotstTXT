@@ -7,11 +7,6 @@ html, body, #root {
   margin: 0 !important;
 }
 
-.section {
-  position: sticky;
-  top: 0;
-}
-
 /* Color Guide */
 :root {
   /* Brand - Red */
@@ -115,13 +110,47 @@ p, .body {
   font-weight: 400; 
 }
 
+.blue-text {
+    color: var(--color-secondary);
+}
+
+.red-text {
+    color: var(--color-main);
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .content-container {
   padding-left: 144px;
   padding-right: 144px;
   margin: 0 auto;
 }
 
+/* ── Buttons ── */
+.btn-primary {
+  background-color: var(--color-secondary) !important;
+  border-color: var(--color-secondary) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+}
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: var(--color-secondary-darker) !important;
+  border-color: var(--color-secondary-darker) !important;
+}
+
+.btn-accent {
+  background-color: var(--color-accent) !important;
+  border-color: var(--color-accent) !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  color: var(--color-black) !important;
+}
+
+.btn-accent:hover, .btn-accent:focus, .btn-accent:active {
+  background-color: var(--color-accent-darker) !important;
+  border-color: var(--color-accent-darker) !important;
+}
 
 /* ── Tablet (834px) ── */
 @media (max-width: 991px) {
