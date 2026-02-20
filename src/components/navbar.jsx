@@ -6,23 +6,23 @@ import './components.css'
 function AppNavbar() {
   return (
     <Navbar bg="white" expand="lg" sticky="top" className="app-navbar">
-  <Container fluid>
-    <Navbar.Brand as={Link} to="/">
-      <img src={logo} alt="SportsTXT" height="40" />
-    </Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="ms-auto align-items-center gap-4">
-        <Nav.Link as={Link} to="/">Home</Nav.Link>
-        <Nav.Link as={Link} to="/features">Features</Nav.Link>
-        <Nav.Link as={Link} to="/about">About Us</Nav.Link>
-        <Button as={Link} to="/contact" className="btn-primary">
-          Contact Us
-        </Button>
-      </Nav>
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
+      <Container fluid>
+        <Navbar.Brand as={Link} to="/">
+          <img src={logo} alt="SportsTXT" height="40" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto align-items-center gap-4">
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/features">Features</Nav.Link>
+            <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+            <Button as={Link} to="/contact" className="btn-primary">
+              Contact Us
+            </Button>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 
