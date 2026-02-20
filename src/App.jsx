@@ -13,6 +13,7 @@ import './App.css'
 function AppContent() {
   const { pathname } = useLocation()
 
+  {/* To scroll on top */}
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [pathname])

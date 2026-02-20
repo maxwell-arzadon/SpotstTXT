@@ -1,13 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { 
-    TeamOutlined, 
-    VideoCameraOutlined, 
-    AudioOutlined,
-    MessageOutlined,
-    CameraOutlined,
-    BarChartOutlined
-} from '@ant-design/icons'
+import { TeamOutlined, VideoCameraOutlined, AudioOutlined,MessageOutlined,CameraOutlined,BarChartOutlined } from '@ant-design/icons'
 import CTA from '../components/CTA'
 import featuresImage from '../assets/features-mockup.png'
 import './pages.css'

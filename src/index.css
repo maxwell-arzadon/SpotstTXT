@@ -114,13 +114,13 @@ p, .body {
 }
 
 .blue-text {
-    color: var(--color-secondary);
+  color: var(--color-secondary);
 }
 
 .red-text {
-    color: var(--color-main);
-    font-style: italic;
-    text-decoration: underline;
+  color: var(--color-main);
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .content-container {
@@ -170,6 +170,9 @@ p, .body {
   .content-container {
     padding-left: 48px;
     padding-right: 48px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
   }
 }
 
@@ -188,5 +191,8 @@ p, .body {
   .content-container {
     padding-left: 24px;
     padding-right: 24px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
   }
 }
