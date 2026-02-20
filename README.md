@@ -34,10 +34,10 @@ src/
 
 ## 📄 Pages
 
-- **Home** — Hero, What Is SportsTXT, Our Mission, How It Works, Platform of Firsts, CTA
-- **Features** — App Features hero, Features grid
-- **About Us** — About hero, Key People
-- **Contact Us** — Contact hero, Contact form with office info
+- **Home**
+- **Features**
+- **About Us**
+- **Contact Us**
 
 ## 🎨 Design System
 
