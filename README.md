@@ -2,7 +2,7 @@
 
 A modern, responsive front-end website built with React and Bootstrap for SportsTXT — a fan-first sports engagement platform.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React** — Frontend framework
 - **Vite** — Build tool
@@ -11,7 +11,7 @@ A modern, responsive front-end website built with React and Bootstrap for Sports
 - **AOS (Animate On Scroll)** — Scroll animations
 - **Ant Design Icons** — Icon library
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -32,21 +32,21 @@ src/
 └── index.css        # Global styles
 ```
 
-## 📄 Pages
+## Pages
 
 - **Home**
 - **Features**
 - **About Us**
 - **Contact Us**
 
-## 🎨 Design System
+## Design System
 
 - **Typeface** — Montserrat (Google Fonts)
 - **Primary Color** — #E61A27 (Red)
 - **Secondary Color** — #015CA8 (Blue)
 - **Accent Color** — #FAC85C (Yellow)
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -85,7 +85,7 @@ npm run dev
 http://localhost:5173
 ```
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - **Desktop** — 1440px — 144px margin, 12 columns
 - **Tablet** — 991px — 48px margin, 8 columns

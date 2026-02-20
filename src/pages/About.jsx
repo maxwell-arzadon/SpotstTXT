@@ -78,9 +78,9 @@ function About() {
                     <span className="blue-text">Key</span>{' '}
                     <span className="red-text">People</span>
                 </h1>
-                <Row className="g-4">
+                <Row className="g-4" >
                     {people.map((person, index) => (
-                    <Col md={4} key={index} className="text-start">
+                    <Col md={4} key={index} className="text-start" data-aos="fade-up">
                         <div className="people-card shadow-sm">
                         <img
                             src={person.image}
