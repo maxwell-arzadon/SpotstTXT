@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
-import AppNavbar from './components/navbar.jsx'
-import Footer from './components/footer.jsx'
+import AppNavbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import Features from './pages/Features.jsx'
 import About from './pages/About.jsx'
@@ -34,7 +34,7 @@ function AppContent() {
 function App() {
   useEffect(() => {
     AOS.init({ 
-      duration: 500, 
+      duration: 800, 
     })
   }, [])
 

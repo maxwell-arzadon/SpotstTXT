@@ -8,7 +8,7 @@ import {
     CameraOutlined,
     BarChartOutlined
 } from '@ant-design/icons'
-import CTA from '../components/cta'
+import CTA from '../components/CTA'
 import featuresImage from '../assets/features-mockup.png'
 import './pages.css'
 

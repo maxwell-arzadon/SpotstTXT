@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import './pages.css'
-import CTA from '../components/cta'
+import CTA from '../components/CTA'
 
 import phoneMockup from '../assets/hero/home-sportstxt.png'
 import about from '../assets/hero/home-mission.png'
@@ -85,7 +85,7 @@ function Home() {
                 className="img-fluid rounded-4" 
               />     
             </Col>  
-            <Col md={6} className="text-center text-md-start order-1 order-md-2">
+            <Col md={6} className="text-center text-md-end order-1 order-md-2">
               <h1>
                 <span className="blue-text">How it</span>{' '}
                 <span className="red-text">Works</span>

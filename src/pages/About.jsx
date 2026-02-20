@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import CTA from '../components/cta'
+import CTA from '../components/CTA'
 import aboutImage from '../assets/about/about-service.png'
 import './pages.css'
 
